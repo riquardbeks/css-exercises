@@ -1,0 +1,14 @@
+div p {
+    background-color: aquamarine;
+    color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Een class heeft altijd prioriteit op de rest van de styling. Deze zal dan ook altijd overgenomen worden */
+.container p {
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
